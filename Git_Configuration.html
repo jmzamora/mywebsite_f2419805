@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<HTML>
+    <HEAD>
+        <title>My First Website - Jorge Mario</title>
+    </HEAD>
+    <BODy>
+        <h1>Instrucciones de Configuración de Git y GitHub</h1>
+        <h2>***** Pasos Preliminares *****</h2>
+        <p>1) En <i>Visual Studio Code</i> abra la carpeta en donde almacena su (proyecto) web. Es decir, en donde se encuentra su archivo index.html. Vaya al menú File, Open Floder, y seleccione la carpeta que contienen el proyecto.</p>
+        <p>2) Abra la Terminal en el menú "View" y luego seleccionando la opción "Terminal". También puede emplear el comando de acceso rápido Ctrl + ñ</p>
+        <p></p>
+        <h2>***** Resumen de Comandos *****</h2>
+        <p>En la Terminal ingrese los siguientes comandos (y al final entre ENTER para ejecutarlos):</p>
+        <p>0) git --version<br>
+            Nota: Esto permite verificar que tenga el programa GIT instalado en el equipo. Debe arrojarme la versión del mismo. De lo contrario, no estaría instalado</p>
+        <p>1) git clone <i>dirección_url_repositorio</i><br>
+            Nota: Esto descarga del repositorio GitHub los arcihvos al equipo. <i>dirección_url_repositorio</i> es la dirección del repositorio en GitHub. Ingresa a GitHub, luego a tu repositorio, y da click en el botón "Code". Allí selecciona la opción HTTPS y copia la dirección que aparece. Esta debe terminar en la palabra .git. Una vez haya hecho esto ingrese al directorio del repositorio en el Explorador de Windows y sustituya los archivos allí (que corresponderían a los archivos web de la página Web por defecto creada en el GitHub) por el archivo web propio index.html creado anteriormente<br>
+            (p.ej. git clone https://github.com/jmzamora/mywebsite_f2419805.git)</p> 
+        <p>2) cd <i>nombre_repositorio_GitHub</i><br>
+            Nota: Esto ubica la ejecución del programa Git en el directorio de la carpeta del repositorio en el equipo. Esto es necesario para que la ejecución de comandos consdiere el repositorio. <i>nombre_repositorio_GitHub</i> es el nombre de la carpeta del repositorio. Puede escribirlo o emplear la tecla TAB para que liste automaticamente archivos y carpetas.<br>
+            (p.ej. cd mywebsite_f2419805)</p> 
+        <p>3) git status<br>
+            Nota: Esto permite ver los estados de los archivos locales del repositorio. Si han sido agregados, eliminados o modificados. Si no ha habido ninguna actualización o cambio le dirá que está al día ("up to date").</p>
+        <p>4) git add .<br>
+            Nota: Esto permite agregar todos los cambios hechos, y vistos en el estado.</p>
+        <p>5) git commit -m "mensaje de texto"<br>
+            Nota: Esto etiqueta y prepara los cambios realizados en el equipo (local) para subirlos al servidor (o repositorio remoto) en el GitHub.</p>
+        <p>6) git config --global user.mail "correo_electronico_en_GitHub" (en caso de que salga problema)
+            Nota: Puede presentarse una solicitud de identificación por parte de GitHub. Para ello debe ingresarse el anterior comando. Allí, <i>correo_electronico_en_GitHub</i> es el corrego electrónico registrado en el GitHub. Asegúrese que sea correcto antes de proceder. Una vez hecho esto ejecute nuevamente el comando (5).</p>
+        <p>7) git push <br>
+            Nota: Por último, con este comando se actualiza al servidor GitHub los cambios hechos en el equipo local para ser publicados en la web y ser accesible a través de internet.</p>
+        <p>8) <i>(Opcional)</i> Es posible que GitHub le solicite un procedimiento adicional de autenticación y autorización a través del despliegue de una ventana de diálogo. Seleccione la opción que se realiza a través del navegador o browser, y al abrírseles dan en la opción de autorizar, y todas las posteriores que les soliciten lo mismo. Una vez hecho esto en la terminal deberían poder ver el proceso de subida del proyecto al repositorio. </p>
+        <p>9) Ingresen al repositorio GitHub o a su página web y deberían poder ver la página web creada en el equipo ya disponible online.</p>
+        
+        <p><i>Autor: Jorge Mario Zamora Vélez</i></p>
+    </BODy>
+</HTML>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
