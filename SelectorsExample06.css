@@ -1,0 +1,18 @@
+h1::before {
+    content: url(./smaily.png);
+}
+
+p::first-letter {
+    color:red;
+    font-size: 50px;
+}
+
+p::first-line {
+    color: blue;
+    font-style: oblique;
+}
+
+p::selection {
+    color: darkmagenta;
+    background-color: tomato;
+}

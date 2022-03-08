@@ -1,0 +1,108 @@
+* {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Estilo para Título h1 */
+h1 {
+    color: rgb(100,100,100);
+}
+
+/* Estilo para Título h2 */
+h2 {
+    color: red;
+    border: 5px red dotted;
+}
+
+h3 {
+    color: blue;
+}
+
+/* Estilo para Párrafo p */
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    margin: 0px 0px 0px 30px;
+}
+
+.boxexample {
+    font-family:'Times New Roman', Times, serif;
+    color: blue;
+    border: solid 10px orangered;
+    padding: 10px;
+    /* margin: 10px; */
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 20%;
+    outline: blue 2px solid;
+}
+
+#mystyle_border1 {
+    border: 1px gray solid;
+}
+
+#mystyle_border2 {
+    border-style: dotted;
+    border-color: blue;
+    border-width: 2px;
+}
+
+#mystyle_border3 {
+    border: 3px orange double;
+}
+
+#mystyle_border4 {
+    border: 1px green dashed;
+}
+
+#mystyle_border5 {
+    border: 3px red groove;
+}
+
+#mystyle_border6 {
+    border: 3px lightseagreen ridge;
+}
+
+#mystyle_border7 {
+    border: 3px violet inset;
+}
+
+#mystyle_border8 {
+    border: 3px yellow outset;
+}
+
+#mystyle_border8 {
+    border: 1px rgb(0, 255, 0) solid;
+    border-radius: 4px;
+    background-color: aquamarine;
+}
+#mystyle_border10 {
+    border-bottom: blue solid 1px;
+    border-left: darkblue solid 4px;
+    border-right: none;
+    border-top: none;
+    background-color: lightcyan;
+}
+
+.mydiv {
+    border: 2px solid black;
+    margin: 20px;
+    width: 40%;
+    height: 300px;
+    padding: 10px;
+}
+
+.myimage {
+    margin: 30px;
+}
+
+p.exclusive {
+    background-color: chartreuse;
+}
+
+h5, h6 {
+    background-color: burlywood;
+    text-align: right;
+    border-bottom: 3px solid green;
+}

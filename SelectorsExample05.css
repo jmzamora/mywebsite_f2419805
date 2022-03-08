@@ -1,0 +1,28 @@
+div {
+    margin: 10px 200px;
+    color: black;
+    text-align: center;
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+/* div:link {
+    color:white;
+    background-color: black;
+} */
+
+/* div:visited {
+    color: blue;
+    background-color: aqua;
+} */
+
+div:hover {
+    color: #ff00ff;
+    background-color:bisque;
+}
+
+
+div:active {
+    color: yellow;
+    background-color: darkviolet;
+}

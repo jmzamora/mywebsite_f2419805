@@ -1,0 +1,10 @@
+div {
+    margin: 10px 200px;
+    text-align: center;
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+div:hover {
+    background-color: lightblue;
+}
