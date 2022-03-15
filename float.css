@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    clear: left;
+}
+
+img {
+    float: left;
+    margin: 5px;
+}
+
+div {
+    padding: 10px 35px;
+    float: left
+}
+
+#button_1{
+    background-color: yellow;
+    border: 5px solid black;
+}
+
+#button_2{
+    background-color: blue;
+    border: 5px solid black;
+}
+
+#button_3{
+    background-color: red;
+    border: 5px solid black;
+}
+
+#button_4{
+    background-color: orange;
+    border: 5px solid black;
+}
+
+#button_5{
+    background-color: green;
+    border: 5px solid black;
+}
+
+/* .fullcontainer::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+.figcontainer {
+    float:left;
+    width: 33.33%;
+
+}
